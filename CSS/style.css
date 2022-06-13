@@ -1,0 +1,123 @@
+/*Start variables*/
+:root{
+    --primary-color:#19c8fa;
+}
+/*End variables*/
+/* The Global Rules for the css */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ /* Very Small phones */
+@media (max-width:768px) {
+    .special-heading{
+        font-size: 70px;
+    }
+    .special-heading + p{
+        margin-top: -15px;
+    }
+}
+ /* Small phones */
+@media (min-width: 768px) {  
+    .container{
+        width: 750px;
+    }
+}
+ /* Small phones */
+@media (min-width: 992px) { 
+    .container{
+        width: 970px;
+    }
+}
+ /* Large phones */
+@media (min-width: 1200px) {  
+    .container{
+        width: 1170px;
+    }
+}
+/* The Global Rules Finished */
+/* Start Header */
+header{
+
+}
+header .container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+}
+/*Line under the logo*/
+header .container::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #a2a2a2;
+    bottom: 0;
+    width: calc(100% - 30px);
+    left: 15px;
+}
+
+header  img{
+    width: 40px; 
+    /* height:40px ; */
+}
+header nav{
+    flex: 1;/* To make the nav bar take the remain space  */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 40px 10px;
+    transition: 0.3s;
+}
+header nav ul a.active, header nav ul a:hover {
+    color:var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    position: relative;
+    z-index: 2;
+}
+header .form{
+    width: 40px;
+    height: 30px;
+    position: relative;
+    margin-left:30px ;
+    border-left: 1px solid white;
+}
+header .form i{
+    color:white;
+    position: absolute;
+    /*To allocate it in the middle*/
+    top: 50%;
+    transform:translateY(-50%);
+    /*It became middle ^_^ */
+    right:0;
+}
+/* End Header */
