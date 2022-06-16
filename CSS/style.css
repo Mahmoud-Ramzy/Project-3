@@ -200,7 +200,7 @@ header .form i{
 .landing{
     min-height: 100vh;
     background-color: rgba(8, 8, 8, 0.701);
-    background-image: url(/Images/Landing.jpg);
+    background-image: url(Images/Landing.jpg);
     background-size:cover ;
     position: relative; /*To make the overlay on the top of it*/
 }
