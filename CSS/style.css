@@ -317,7 +317,7 @@ header .form i{
     color: var(--primary-color);
 }
 .sevices .srv-card p{
-    line-height: 2;
+    line-height: 2; 
     color: var(--paragraph-color);
 }
 @media (min-width: 768px) {
@@ -476,7 +476,7 @@ header .form i{
     margin: 25px auto;
     width: fit-content;
     text-transform: uppercase;
-    padding: 15px 20px;
+    padding: 15px;
 }
 
 /* End Protofolio section */
