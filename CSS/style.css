@@ -412,7 +412,12 @@ header .form i{
 }
 .Protofolio .shuffle li{
     padding: 10px;
-    border-radius: 7px 7px 0 0 ;
+    border-radius: 50% ;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Protofolio .shuffle li.active{
     background-color: var(--primary-color);
@@ -441,6 +446,7 @@ header .form i{
 }
 .Protofolio .imgs-container .box img{
     max-width: 100%;
+    transition: 0.2s;
 }
 .Protofolio .imgs-container .caption{
     position: absolute;
@@ -448,8 +454,8 @@ header .form i{
     padding: 10px;
     background-color: white;
     width: 100%;
-    transition:0.3s;
-    bottom: -100%;
+    transition:0.6s;
+    bottom: -100px;
     height: fit-content;
 }
 .Protofolio .imgs-container .box:hover .caption{
