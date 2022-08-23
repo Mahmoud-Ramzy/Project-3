@@ -1,130 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template 2</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template 3</title>
     <!-- Normalize link -->
-    <link rel="stylesheet" href="CSS/Normalize.css">
-    
+    <link rel="stylesheet" href="CSS/Normalize.css" />
+
     <!-- font awesome link -->
-    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/all.css" />
     <!--  Never forget to copy webfonts folder beside CSS file. -->
-    
+
     <!-- <link rel="stylesheet" href="CSS/all.css"> -->
     <!-- main style css link -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css" />
     <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- start header -->
     <header>
-        <div class="container">
-            <a href="#Home"><img src="Images/MR LOGO.png" alt="Logo"></a>
-            <nav>
-                <i class="fa-solid fa-bars toggle-menu"></i>
-                <ul>
-                    <li><a class="active" href="#Home">Home</a></li>
-                    <li><a href="#Services">Services</a></li>
-                    <li><a href="#Protofolio">Protofolio</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Pricing">Pricing</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
-                <div class="form">
-                    <i class="fa fa-thin fa-magnifying-glass"></i>
-                </div>
-            </nav>
-        </div>
+      <div class="container">
+        <a href="#Home"><img src="Images/MR LOGO.png" alt="Logo" /></a>
+        <nav>
+          <i class="fa-solid fa-bars toggle-menu"></i>
+          <ul>
+            <li><a class="active" href="#Home">Home</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Protofolio">Protofolio</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Pricing">Pricing</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+          <div class="form">
+            <i class="fa fa-thin fa-magnifying-glass"></i>
+          </div>
+        </nav>
+      </div>
     </header>
-        <!-- Finish header -->
-        <!-- Start Landing -->
-        <div class="landing">
-            <div class="overlay">
-            
-            </div>
+    <!-- Finish header -->
+    <!-- Start Landing -->
+    <div class="landing" id="Home">
+      <div class="overlay"></div>
+      <div class="text">
+        <div class="content">
+          <h2>
+            Hello there! <br />
+            Iam Mahmoud Ramzy Front-End developer
+          </h2>
+          <p>
+            Iam student in faculty of engineering alexandria university, <br />
+            Iam interested in Front-End development and designing and making art
+          </p>
+        </div>
+      </div>
+      <i class="fa-solid fa-angle-left fa-2x change-background"></i>
+      <i class="fa-solid fa-angle-right fa-2x change-background"></i>
+      <ul class="bullets">
+        <li></li>
+        <li class="active"></li>
+        <li></li>
+      </ul>
+    </div>
+    <!-- End Landing -->
+    <!-- Start Services section -->
+    <div class="sevices" id="Services">
+      <div class="container">
+        <!-- Start Service header -->
+        <div class="main-heading">
+          <h2>Services</h2>
+          <p>
+            This is our services that we supply if you need any of them we will
+            make it in the best quality, best price, and Complete the work
+            perfectly.
+          </p>
+        </div>
+        <!-- End Service header -->
+        <!-- Start Service container -->
+        <div class="services-container">
+          <!-- Start first card -->
+          <div class="srv-card">
+            <i class="fa-solid fa-paintbrush fa-3x"></i>
             <div class="text">
-                <div class="content">
-                    <h2>Hello there! <br> 
-                        Iam Mahmoud Ramzy Front-End developer</h2>
-                        <p>Iam student in faculty of engineering alexandria university, <br>
-                            Iam interested in Front-End development and designing and making art</p>
-                </div>
+              <h3>Graphic Design</h3>
+              <p>
+                Graphic design is the process of visual communication and
+                problem-solving using one or more of typography, photography and
+                illustration.
+              </p>
             </div>
-            <i class="fa-solid fa-angle-left fa-2x change-background"></i>
-            <i class="fa-solid fa-angle-right fa-2x change-background"></i>
-            <ul class="bullets">
-                <li></li>
-                <li class="active"></li>
-                <li></li>
-            </ul>
-        </div>
-        <!-- End Landing -->
-        <!-- Start Services section -->
-        <div class="sevices">
-            <div class="container">
-                <!-- Start Service header -->
-                <div class="main-heading">
-                    <h2>Services</h2>
-                    <p>
-                        This is our services that we supply if you need any of them we will make it
-                        in the best quality, best price, and Complete the work perfectly. 
-                    </p>
-                </div>
-                <!-- End Service header -->
-                <!-- Start Service container -->
-                <div class="services-container">
-                    <!-- Start first card -->
-                    <div class="srv-card">
-                        <i class="fa-solid fa-paintbrush fa-3x"></i>
-                        <div class="text">
-                            <h3>Graphic Design</h3>
-                            <p> Graphic design is the process of visual communication and
-                            problem-solving using one or more of typography, photography and illustration.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- End first card -->
-                    <!-- Start second card -->
-                    <div class="srv-card">
-                        <i class="fa-solid fa-laptop-code fa-3x"></i>
-                        <div class="text">
-                        <h3>Web Development</h3>
-                        <p> Web Development is a broad term for the work 
-                            involved in developing a web site for the internet.
-                        </p>
-                        </div>
-                    </div>
-                    <!-- End second card -->
-                    <!-- Start third card -->
-                    <div class="srv-card">
-                        <i class="fa-solid fa-users fa-3x"></i>
-                        <div class="text">
-                            <h3>UI & UX</h3>
-                            <p> Process of enhancing user satisfaction with a product by
-                                improving the usability, accessibility, and pleasure provided in the interaction.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- End third card -->
-                    <!-- Start forth card -->
-                    <div class="srv-card">
-                        <i class="fa-solid fa-cube fa-3x"></i>
-                        <div class="text">
-                            <h3>Graphic Design</h3>
-                            <p> Graphic design is the process of visual communication and
-                            problem-solving using one or more of typography, photography and illustration.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End forth card -->
-                <!-- End Service container -->
+          </div>
+          <!-- End first card -->
+          <!-- Start second card -->
+          <div class="srv-card">
+            <i class="fa-solid fa-laptop-code fa-3x"></i>
+            <div class="text">
+              <h3>Web Development</h3>
+              <p>
+                Web Development is a broad term for the work involved in
+                developing a web site for the internet.
+              </p>
             </div>
+          </div>
+          <!-- End second card -->
+          <!-- Start third card -->
+          <div class="srv-card">
+            <i class="fa-solid fa-users fa-3x"></i>
+            <div class="text">
+              <h3>UI & UX</h3>
+              <p>
+                Process of enhancing user satisfaction with a product by
+                improving the usability, accessibility, and pleasure provided in
+                the interaction.
+              </p>
+            </div>
+          </div>
+          <!-- End third card -->
+          <!-- Start forth card -->
+          <div class="srv-card">
+            <i class="fa-solid fa-cube fa-3x"></i>
+            <div class="text">
+              <h3>Graphic Design</h3>
+              <p>
+                Graphic design is the process of visual communication and
+                problem-solving using one or more of typography, photography and
+                illustration.
+              </p>
+            </div>
+          </div>
         </div>
-        <!-- End Services section -->
-</body>
+        <!-- End forth card -->
+        <!-- End Service container -->
+      </div>
+    </div>
+    <!-- End Services section -->
+    <!-- Start Design section -->
+    <div class="design" id="Protofolio">
+      <div class="image">
+        <img src="./Images/mob.png" alt="Mobile" />
+      </div>
+      <div class="text">
+        <h2>Our design coming with</h2>
+        <ul>
+          <li>Responsive Design</li>
+          <li>Modern and Clean Design</li>
+          <li>Clean Code</li>
+          <li>Browser Friendly</li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Design section -->
+    <!-- Start Protofolio section -->
+    <div class="Protofolio">
+      <div class="container">
+        <div class="main-heading">
+          <h2>Protofolio</h2>
+          <p>
+            This is my Projects, I wish you like it, if you want me make you
+            something like that or better just contact me.
+          </p>
+        </div>
+        <ul class="shuffle">
+          <li class="active">All</li>
+          <li>App</li>
+          <li>Photo</li>
+          <li>Web</li>
+          <li>Print</li>
+        </ul>
+      </div>
+      <!-- Shuffle images container -->
+      <div class="imgs-container">
+        <div class="box">
+          <img src="./Images/shuffle1.jpg" alt="Shuffle 1" />
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./Images/shuffle2.jpg" alt="Shuffle 2" />
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./Images/shuffle3.jpg" alt="Shuffle 3" />
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./Images/shuffle4.webp" alt="Shuffle 4" />
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./Images/shuffle5.jpg" alt="Shuffle 5" />
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./Images/shuffle6.jpg" alt="Shuffle 6" />
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./Images/shuffle7.jpg" alt="Shuffle 7" />
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./Images/shuffle8.jpg" alt="Shuffle 8" />
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="more">More</a>
+    </div>
+    <!-- End Protofolio section -->
+  </body>
 </html>
